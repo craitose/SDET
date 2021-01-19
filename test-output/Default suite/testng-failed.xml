@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testCases.TC_VideoGame_API">
+        <methods>
+          <include name="test_AddNewVideoGame"/>
+          <include name="test_GetVideoGame"/>
+          <include name="test_GetAllVideoGames"/>
+          <include name="test_UpdateVideoGame"/>
+          <include name="test_DeleteVideoGame"/>
+        </methods>
+      </class> <!-- testCases.TC_VideoGame_API -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
